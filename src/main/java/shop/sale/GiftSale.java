@@ -18,7 +18,7 @@ public class GiftSale implements Sale {
         for (OrderItem orderItem : products) {
             Product gift = productService.getGiftIfExist(orderItem.getProduct());
             if (gift != null) {
-                OrderItem orderItemGift = new OrderItem(gift, 1);
+                OrderItem orderItemGift = new OrderItem(gift, new BigDecimal(1));
                 orderItemGift.setOrderedPrice(new BigDecimal(0));
                 gifts.add(orderItemGift);
             }

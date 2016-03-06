@@ -10,7 +10,9 @@ public class ConstantDiscountTest {
     @org.junit.Test
     public void test() {
         ConstantDiscount constantDiscount = new ConstantDiscount();
-        assertThat(constantDiscount.applyDiscount(new BigDecimal(550)), is(new BigDecimal(540)));
+        BigDecimal actual = constantDiscount.applyDiscount(new BigDecimal(550));
+        BigDecimal expect = new BigDecimal(540).setScale(2, BigDecimal.ROUND_FLOOR);
+        assertThat(actual, is(expect));
     }
 
 }

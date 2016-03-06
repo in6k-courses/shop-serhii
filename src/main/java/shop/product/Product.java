@@ -5,13 +5,18 @@ import java.math.BigDecimal;
 public class Product {
 
     private String category;
-    private String name;
+    private String model;
     private final BigDecimal price;
 
+    public static void main(String[] args) {
+        Product product1 = new Product("a", "b", new BigDecimal(33));
+        Product product2 = new Product("a", "b", new BigDecimal(33));
+        System.out.println(product1.hashCode()+ " \n" + product2.hashCode());
+    }
 
-    public Product(String category, String name, BigDecimal price) {
+    public Product(String category, String model, BigDecimal price) {
         this.category = category;
-        this.name = name;
+        this.model = model;
         this.price = price;
     }
 
@@ -23,12 +28,12 @@ public class Product {
         this.category = category;
     }
 
-    public String getName() {
-        return name;
+    public String getModel() {
+        return model;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setModel(String model) {
+        this.model = model;
     }
 
     public BigDecimal getPrice() {
@@ -41,15 +46,19 @@ public class Product {
         if ((obj == null) || (!(obj instanceof Product)))
             return false;
         Product that = (Product) obj;
-        return name.equals(that.name) &&
+        return model.equals(that.model) &&
                 category.equals(that.category);
     }
 
     public int hashCode() {
         int hash = 7;
-        hash = 31 * hash + name.hashCode();
+        hash = 31 * hash + model.hashCode();
         hash = 31 * hash + category.hashCode();
         return hash;
     }
 
+    @Override
+    public String toString() {
+        return category + "\t    " + model + "\t" + price.setScale(2, BigDecimal.ROUND_FLOOR);
+    }
 }

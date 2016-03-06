@@ -9,21 +9,15 @@ public class ProductService {
     private Map<Product, BigDecimal> sellProducts;
     private Map<Product, Product> giftProducts;
 
-
     public ProductService() {
         sellProducts = new HashMap<Product, BigDecimal>();
-        sellProducts.put(new Product("phones", "nokia 5530", new BigDecimal(55.34)), new BigDecimal(0.5));
-        sellProducts.put(new Product("phones", "samsung a300", new BigDecimal(22.1)), new BigDecimal(0.5));
-
+        Product product = new Product("phone", "a300", new BigDecimal(100));
+        sellProducts.put(product, new BigDecimal(0.5));
 
         giftProducts = new HashMap<Product, Product>();
-        giftProducts.put(new Product("phones", "samsung a300", new BigDecimal(22.1)),
-                new Product("phones", "samsung a300", new BigDecimal(22.1)));
-
-/*        sellProducts.put(new Product("notebook", "acer 700",),0);
-        sellProducts.put(new Product("notebook", "dell 7720"),0);
-        sellProducts.put(new Product("notebook", "asus 333"),0);*/
-        // giftProducts.put(new Product("phones", "nokia 5530",new BigDecimal(55.34)),)
+        Product product1 = new Product("phone", "5530", new BigDecimal(100));
+        Product gift = new Product("cover", "K2l5", new BigDecimal(50));
+        giftProducts.put(product1, gift);
     }
 
     public boolean checkSale(Product product) {
@@ -33,21 +27,30 @@ public class ProductService {
     public BigDecimal getSale(Product product) {
         if (checkSale(product)) {
             return sellProducts.get(product);
-        } else return new BigDecimal(1);
+        } else
+            return new BigDecimal(1);
     }
-
 
     public Product getGiftIfExist(Product product) {
         if (giftProducts.containsKey(product)) {
             return giftProducts.get(product);
-        } else return null;
+        } else
+            return null;
     }
 
-    public static void main(String[] args) {
-        ProductService productService = new ProductService();
-        BigDecimal sale = productService.getSale(new Product("phones", "samsung a300", new BigDecimal(22.1)));
-        System.out.println(sale);
+    public void addSellProduct(Product product, BigDecimal sell) {
+        sellProducts.put(product, sell);
+    }
 
+    public void removeSellProduct(Product product) {
+        sellProducts.remove(product);
+    }
+
+    public void addGiftProduct(Product product, Product gift) {
+        giftProducts.put(product, gift);
+    }
+
+    public void removeGiftProduct(Product product) {
     }
 
 }
