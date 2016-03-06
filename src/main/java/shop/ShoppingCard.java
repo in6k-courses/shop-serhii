@@ -52,6 +52,10 @@ public class ShoppingCard {
         return builder.toString();
     }
 
+
+
+
+
     public Sale getSaleStrategy() {
         return saleStrategy;
     }

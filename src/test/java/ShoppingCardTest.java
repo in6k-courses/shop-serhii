@@ -1,23 +1,29 @@
+import org.junit.Before;
 import shop.ShoppingCard;
+import shop.discont.AmountDiscount;
+import shop.discont.ConstantDiscount;
 import shop.product.OrderItem;
 import shop.product.Product;
 import shop.sale.GiftSale;
+import shop.sale.ProductSale;
 
 import java.math.BigDecimal;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
+
 public class ShoppingCardTest {
 
+    ShoppingCard shoppingCard;
 
-    @org.junit.Test
-    public void test(){
-        ShoppingCard shoppingCard = new ShoppingCard();
+    @Before
+    public void init() {
+        shoppingCard = new ShoppingCard();
 
-        Product product1 = new Product("phone","cx70", new BigDecimal(55));
+        Product product1 = new Product("phone", "cx70", new BigDecimal(55));
         OrderItem item1 = new OrderItem(product1, new BigDecimal(2));
 
-        Product product2 = new Product("phone","cx70", new BigDecimal(55));
+        Product product2 = new Product("phone", "cx70", new BigDecimal(55));
         OrderItem item2 = new OrderItem(product2, new BigDecimal(2));
 
         Product product3 = new Product("phone", "a300", new BigDecimal(100));
@@ -30,9 +36,27 @@ public class ShoppingCardTest {
         shoppingCard.addOrderItem(item2);
         shoppingCard.addOrderItem(item3);
         shoppingCard.addOrderItem(item4);
+    }
+
+    @org.junit.Test
+    public void testWithProductSaleAndConstantDiscount() {
+        shoppingCard.setSaleStrategy(new ProductSale());
+        shoppingCard.setDiscountStrategy(new ConstantDiscount());
+        String actual = shoppingCard.getCheck();
+        String expected = "category\tmodel\tprice\tamount\tpriceSale \ttotal\n"
+                + "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n"
+                + "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n"
+                + "phone\t    a300\t100.00\t2.00\t50.00\t   100.00\n"
+                + "phone\t    5530\t100.00\t2.00\t100.00\t   200.00\n"
+                + "Total = 510.00";
+        assertThat(actual, is(expected));
+
+    }
+
+    @org.junit.Test
+    public void testWithGiftSaleAndConstantDiscount() {
         shoppingCard.setSaleStrategy(new GiftSale());
-
-
+        shoppingCard.setDiscountStrategy(new ConstantDiscount());
         String actual = shoppingCard.getCheck();
         String expected = "category\tmodel\tprice\tamount\tpriceSale \ttotal\n"
                 + "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n"
@@ -42,10 +66,35 @@ public class ShoppingCardTest {
                 + "cover\t    K2l5\t50.00\t1.00\t0.00\t   0.00\n"
                 + "Total = 610.00";
         assertThat(actual, is(expected));
-
     }
 
+    @org.junit.Test
+    public void testWithProductSaleAndAmountDiscount() {
+        shoppingCard.setSaleStrategy(new ProductSale());
+        shoppingCard.setDiscountStrategy(new AmountDiscount());
+        String actual = shoppingCard.getCheck();
+        String expected = "category\tmodel\tprice\tamount\tpriceSale \ttotal\n"
+                + "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n"
+                + "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n"
+                + "phone\t    a300\t100.00\t2.00\t50.00\t   100.00\n"
+                + "phone\t    5530\t100.00\t2.00\t100.00\t   200.00\n"
+                + "Total = 520.00";
+        assertThat(actual, is(expected));
+    }
 
-
+    @org.junit.Test
+    public void testWithGiftSaleAndAmountDiscount() {
+        shoppingCard.setSaleStrategy(new GiftSale());
+        shoppingCard.setDiscountStrategy(new AmountDiscount());
+        String actual = shoppingCard.getCheck();
+        String expected = "category\tmodel\tprice\tamount\tpriceSale \ttotal\n"
+                + "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n"
+                + "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n"
+                + "phone\t    a300\t100.00\t2.00\t100.00\t   200.00\n"
+                + "phone\t    5530\t100.00\t2.00\t100.00\t   200.00\n"
+                + "cover\t    K2l5\t50.00\t1.00\t0.00\t   0.00\n"
+                + "Total = 620.00";
+        assertThat(actual, is(expected));
+    }
 
 }

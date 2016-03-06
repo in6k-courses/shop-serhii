@@ -13,4 +13,11 @@ public class AmountDiscountTest {
         assertThat(amountDiscount.applyDiscount(new BigDecimal(1001)), is(expect));
     }
 
+
+    @org.junit.Test
+    public void testLess(){
+        AmountDiscount amountDiscount = new AmountDiscount();
+        assertThat(amountDiscount.applyDiscount(new BigDecimal(1000)), is(new BigDecimal(1000).setScale(2,BigDecimal.ROUND_FLOOR)));
+    }
+
 }

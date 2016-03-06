@@ -8,12 +8,6 @@ public class Product {
     private String model;
     private final BigDecimal price;
 
-    public static void main(String[] args) {
-        Product product1 = new Product("a", "b", new BigDecimal(33));
-        Product product2 = new Product("a", "b", new BigDecimal(33));
-        System.out.println(product1.hashCode()+ " \n" + product2.hashCode());
-    }
-
     public Product(String category, String model, BigDecimal price) {
         this.category = category;
         this.model = model;

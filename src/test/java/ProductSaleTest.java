@@ -30,11 +30,12 @@ public class ProductSaleTest {
     @org.junit.Test
     public void testProductSale() {
         ProductSale productSale = new ProductSale();
-        productSale.applySale(orderItems);
         BigDecimal total = new BigDecimal(0);
 
+        productSale.applySale(orderItems);
+
         for (OrderItem item : orderItems) {
-            total = total.add(item.getOrderedPrice());
+            total = total.add(item.getPurchasePrice());
         }
 
         BigDecimal actual  = total.setScale(2, BigDecimal.ROUND_FLOOR);

@@ -35,7 +35,7 @@ public class GiftSaleTest {
 
         Product gift = new Product("cover", "K2l5", new BigDecimal(50));
         OrderItem giftOrderItem = new OrderItem(gift, new BigDecimal(1));
-        giftOrderItem.setOrderedPrice(new BigDecimal(0));
+        giftOrderItem.setPurchasePrice(new BigDecimal(0));
 
         assertThat(orderItems, hasItem(giftOrderItem));
     }
