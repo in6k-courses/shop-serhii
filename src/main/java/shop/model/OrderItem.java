@@ -1,17 +1,16 @@
-package shop.product;
+package shop.model;
 
 import java.math.BigDecimal;
 
 public class OrderItem {
 
-   private Product product;
+    private Product product;
     private BigDecimal purchasePrice;
     private BigDecimal amount;
 
-
     public OrderItem(Product product, BigDecimal amount) {
         this.product = product;
-        purchasePrice = product.getPrice().setScale(2,BigDecimal.ROUND_FLOOR);
+        purchasePrice = product.getPrice();
         this.amount = amount;
     }
 
@@ -27,10 +26,13 @@ public class OrderItem {
         return product;
     }
 
-    public BigDecimal calculatePrice(){
-        return purchasePrice.multiply(amount).setScale(2,BigDecimal.ROUND_FLOOR);
+    public BigDecimal calculateCost() {
+        return purchasePrice.multiply(amount).setScale(2, BigDecimal.ROUND_FLOOR);
     }
 
+    public BigDecimal getAmount() {
+        return amount;
+    }
 
     @Override
     public boolean equals(Object obj) {
@@ -42,7 +44,7 @@ public class OrderItem {
         return product.equals(that.getProduct()) &&
                 purchasePrice.equals(that.purchasePrice) && amount.equals(that.getAmount());
     }
-
+    @Override
     public int hashCode() {
         int hash = 7;
         hash = 31 * hash + product.hashCode();
@@ -54,11 +56,7 @@ public class OrderItem {
     @Override
     public String toString() {
         return product.toString() + "\t" + amount.setScale(2, BigDecimal.ROUND_FLOOR) +
-                 "\t" + purchasePrice.setScale(2, BigDecimal.ROUND_FLOOR) + "\t   " + calculatePrice();
-    }
-
-    public BigDecimal getAmount() {
-        return amount;
+                "\t" + purchasePrice.setScale(2, BigDecimal.ROUND_FLOOR) + "\t   " + calculateCost();
     }
 
 

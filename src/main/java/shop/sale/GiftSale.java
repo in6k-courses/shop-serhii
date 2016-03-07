@@ -1,7 +1,7 @@
 package shop.sale;
 
-import shop.product.OrderItem;
-import shop.product.Product;
+import shop.model.OrderItem;
+import shop.model.Product;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -12,24 +12,25 @@ import java.util.Map;
 public class GiftSale implements Sale {
     private Map<Product, Product> giftProducts;
 
-    public GiftSale() {
-        giftProducts = new HashMap<Product, Product>();
-        Product product1 = new Product("phone", "5530", new BigDecimal(100));
-        Product gift = new Product("cover", "K2l5", new BigDecimal(50));
-        giftProducts.put(product1, gift);
+    public GiftSale(Map<Product,Product> giftProducts) {
+    this.giftProducts = giftProducts;
     }
 
-    public void applySale(List<OrderItem> products) {
+    public void applySale(List<OrderItem> orderItems) {
         List<OrderItem> gifts = new ArrayList<>();
-        for (OrderItem item : products) {
+        for (OrderItem item : orderItems) {
             if (giftProducts.containsKey(item.getProduct())) {
-                Product gift = giftProducts.get(item.getProduct());
-                OrderItem orderItemGift = new OrderItem(gift, new BigDecimal(1));
-                orderItemGift.setPurchasePrice(new BigDecimal(0));
-                gifts.add(orderItemGift);
+                gifts.add(getGift(item));
             }
         }
-        products.addAll(gifts);
+        orderItems.addAll(gifts);
     }
 
+    private OrderItem getGift(OrderItem item) {
+        Product product = item.getProduct();
+        Product gift = giftProducts.get(product);
+        OrderItem orderItemGift = new OrderItem(gift, new BigDecimal(1));
+        orderItemGift.setPurchasePrice(new BigDecimal(0));
+        return orderItemGift;
+    }
 }

@@ -2,13 +2,15 @@ package shop;
 
 import shop.discont.ConstantDiscount;
 import shop.discont.Discount;
-import shop.product.OrderItem;
+import shop.model.OrderItem;
+import shop.model.Product;
 import shop.sale.ProductSale;
 import shop.sale.Sale;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class ShoppingCard {
@@ -18,57 +20,56 @@ public class ShoppingCard {
     private Discount discountStrategy;
 
     public ShoppingCard() {
-        orderItems = new ArrayList<OrderItem>();
-        saleStrategy = new ProductSale();
+        orderItems = new ArrayList<>();
+        saleStrategy = new ProductSale(new HashMap<Product, BigDecimal>());
         discountStrategy = new ConstantDiscount();
     }
 
-    public void addOrderItem(OrderItem orderItem) {
-        orderItems.add(orderItem);
-    }
-
-    public void removeOrderItem(OrderItem orderItem) {
-        orderItems.remove(orderItem);
-    }
-
-    public BigDecimal getTotal() {
+    public BigDecimal getTotalPurchaseCost() {
         saleStrategy.applySale(orderItems);
-        BigDecimal total = new BigDecimal(0);
-        for (OrderItem item : orderItems) {
-            total = total.add(item.calculatePrice());
-        }
+        BigDecimal total = getOrderItemTotalCost();
         total = discountStrategy.applyDiscount(total);
         return total.setScale(2, RoundingMode.FLOOR);
     }
 
-    public String getCheck() {
-        BigDecimal total = getTotal();
-        StringBuilder builder = new StringBuilder("category\tmodel\tprice\tamount\tpriceSale \ttotal\n");
-        for (OrderItem orderItem : orderItems) {
-            builder.append(orderItem);
-            builder.append("\n");
+    private BigDecimal getOrderItemTotalCost() {
+        BigDecimal total = BigDecimal.ZERO;
+        for (OrderItem item : orderItems) {
+            total = total.add(item.calculateCost());
         }
-        builder.append("Total = " + total);
-        return builder.toString();
+        return total;
     }
 
+    public String getCheck() {
+        BigDecimal total = getTotalPurchaseCost();
+        StringBuilder check = new StringBuilder("");
+        check.append(getCheckHead());
+        check.append(getCheckBody());
+        check.append("Total = " + total);
+        return check.toString();
+    }
 
+    private String getCheckHead() {
+        return "category\tmodel\tprice\tamount\tpriceSale \ttotal\n";
+    }
 
-
-
-    public Sale getSaleStrategy() {
-        return saleStrategy;
+    private String getCheckBody() {
+        StringBuilder checkBody = new StringBuilder();
+        for (OrderItem orderItem : orderItems) {
+            checkBody.append(orderItem);
+            checkBody.append("\n");
+        }
+        return checkBody.toString();
     }
 
     public void setSaleStrategy(Sale saleStrategy) {
         this.saleStrategy = saleStrategy;
     }
-
-    public Discount getDiscountStrategy() {
-        return discountStrategy;
-    }
-
     public void setDiscountStrategy(Discount discountStrategy) {
         this.discountStrategy = discountStrategy;
     }
+    public void addOrderItem(OrderItem orderItem) {
+        orderItems.add(orderItem);
+    }
+
 }

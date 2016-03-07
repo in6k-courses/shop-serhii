@@ -4,5 +4,5 @@ import java.math.BigDecimal;
 
 public interface Discount {
 
-      BigDecimal applyDiscount(BigDecimal total);
+      BigDecimal applyDiscount(BigDecimal price);
 }

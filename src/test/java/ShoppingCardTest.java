@@ -2,12 +2,14 @@ import org.junit.Before;
 import shop.ShoppingCard;
 import shop.discont.AmountDiscount;
 import shop.discont.ConstantDiscount;
-import shop.product.OrderItem;
-import shop.product.Product;
+import shop.model.OrderItem;
+import shop.model.Product;
 import shop.sale.GiftSale;
 import shop.sale.ProductSale;
 
 import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -17,7 +19,7 @@ public class ShoppingCardTest {
     ShoppingCard shoppingCard;
 
     @Before
-    public void init() {
+    public void initShoppingCard() {
         shoppingCard = new ShoppingCard();
 
         Product product1 = new Product("phone", "cx70", new BigDecimal(55));
@@ -38,9 +40,11 @@ public class ShoppingCardTest {
         shoppingCard.addOrderItem(item4);
     }
 
+
+
     @org.junit.Test
     public void testWithProductSaleAndConstantDiscount() {
-        shoppingCard.setSaleStrategy(new ProductSale());
+        shoppingCard.setSaleStrategy(new ProductSale(getSellProducts()));
         shoppingCard.setDiscountStrategy(new ConstantDiscount());
         String actual = shoppingCard.getCheck();
         String expected = "category\tmodel\tprice\tamount\tpriceSale \ttotal\n"
@@ -50,12 +54,11 @@ public class ShoppingCardTest {
                 + "phone\t    5530\t100.00\t2.00\t100.00\t   200.00\n"
                 + "Total = 510.00";
         assertThat(actual, is(expected));
-
     }
 
     @org.junit.Test
     public void testWithGiftSaleAndConstantDiscount() {
-        shoppingCard.setSaleStrategy(new GiftSale());
+        shoppingCard.setSaleStrategy(new GiftSale(getGiftProducts()));
         shoppingCard.setDiscountStrategy(new ConstantDiscount());
         String actual = shoppingCard.getCheck();
         String expected = "category\tmodel\tprice\tamount\tpriceSale \ttotal\n"
@@ -70,21 +73,26 @@ public class ShoppingCardTest {
 
     @org.junit.Test
     public void testWithProductSaleAndAmountDiscount() {
-        shoppingCard.setSaleStrategy(new ProductSale());
+        Product product = new Product("phone", "5530", new BigDecimal(300));
+        OrderItem item = new OrderItem(product, new BigDecimal(2));
+        shoppingCard.addOrderItem(item);
+
+        shoppingCard.setSaleStrategy(new ProductSale(getSellProducts()));
         shoppingCard.setDiscountStrategy(new AmountDiscount());
         String actual = shoppingCard.getCheck();
-        String expected = "category\tmodel\tprice\tamount\tpriceSale \ttotal\n"
-                + "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n"
-                + "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n"
-                + "phone\t    a300\t100.00\t2.00\t50.00\t   100.00\n"
-                + "phone\t    5530\t100.00\t2.00\t100.00\t   200.00\n"
-                + "Total = 520.00";
+        String expected = "category\tmodel\tprice\tamount\tpriceSale \ttotal\n" +
+                "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n" +
+                "phone\t    cx70\t55.00\t2.00\t55.00\t   110.00\n" +
+                "phone\t    a300\t100.00\t2.00\t50.00\t   100.00\n" +
+                "phone\t    5530\t100.00\t2.00\t100.00\t   200.00\n" +
+                "phone\t    5530\t300.00\t2.00\t300.00\t   600.00\n" +
+                "Total = 1108.79";
         assertThat(actual, is(expected));
     }
 
     @org.junit.Test
     public void testWithGiftSaleAndAmountDiscount() {
-        shoppingCard.setSaleStrategy(new GiftSale());
+        shoppingCard.setSaleStrategy(new GiftSale(getGiftProducts()));
         shoppingCard.setDiscountStrategy(new AmountDiscount());
         String actual = shoppingCard.getCheck();
         String expected = "category\tmodel\tprice\tamount\tpriceSale \ttotal\n"
@@ -96,5 +104,21 @@ public class ShoppingCardTest {
                 + "Total = 620.00";
         assertThat(actual, is(expected));
     }
+
+    private Map<Product,Product> getGiftProducts(){
+        Map<Product,Product> giftProducts = new HashMap<>();
+        Product product1 = new Product("phone", "5530", new BigDecimal(100));
+        Product gift = new Product("cover", "K2l5", new BigDecimal(50));
+        giftProducts.put(product1, gift);
+        return giftProducts;
+    }
+
+    private Map<Product,BigDecimal> getSellProducts(){
+        Map<Product,BigDecimal> sealProducts = new HashMap<>();
+        Product product = new Product("phone", "a300", new BigDecimal(100));
+        sealProducts.put(product, new BigDecimal(0.5));
+        return sealProducts;
+    }
+
 
 }

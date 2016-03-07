@@ -1,7 +1,6 @@
 package shop.sale;
 
-
-import shop.product.OrderItem;
+import shop.model.OrderItem;
 
 import java.util.List;
 
