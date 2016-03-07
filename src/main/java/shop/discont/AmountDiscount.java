@@ -2,6 +2,7 @@ package shop.discont;
 
 import java.math.BigDecimal;
 
+//TODO add constructor with amount and discount
 public class AmountDiscount implements Discount {
 
     private final int AMOUNT = 1000;

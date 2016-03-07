@@ -2,6 +2,7 @@ import org.junit.Before;
 import shop.model.OrderItem;
 import shop.model.Product;
 import shop.sale.GiftSale;
+import shop.sale.Sale;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -15,7 +16,7 @@ import static org.junit.Assert.assertThat;
 public class GiftSaleTest {
 
     List<OrderItem> orderItems;
-    GiftSale giftSale;
+    Sale giftSale;
 
     @Before
     public void createOrderItem() {
@@ -39,7 +40,6 @@ public class GiftSaleTest {
 
     @org.junit.Test
     public void test() {
-
         giftSale.applySale(orderItems);
 
         Product gift = new Product("cover", "K2l5", new BigDecimal(50));

@@ -8,6 +8,8 @@ public class OrderItem {
     private BigDecimal purchasePrice;
     private BigDecimal amount;
 
+    //TODO write correct purchasePrice
+
     public OrderItem(Product product, BigDecimal amount) {
         this.product = product;
         purchasePrice = product.getPrice();
@@ -44,6 +46,7 @@ public class OrderItem {
         return product.equals(that.getProduct()) &&
                 purchasePrice.equals(that.purchasePrice) && amount.equals(that.getAmount());
     }
+
     @Override
     public int hashCode() {
         int hash = 7;

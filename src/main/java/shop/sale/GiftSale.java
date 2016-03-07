@@ -12,8 +12,9 @@ import java.util.Map;
 public class GiftSale implements Sale {
     private Map<Product, Product> giftProducts;
 
-    public GiftSale(Map<Product,Product> giftProducts) {
-    this.giftProducts = giftProducts;
+
+    public GiftSale(Map<Product, Product> giftProducts) {
+        this.giftProducts = giftProducts;
     }
 
     public void applySale(List<OrderItem> orderItems) {
@@ -25,6 +26,7 @@ public class GiftSale implements Sale {
         }
         orderItems.addAll(gifts);
     }
+
 
     private OrderItem getGift(OrderItem item) {
         Product product = item.getProduct();
