@@ -12,7 +12,7 @@ public class OrderItem {
 
     public OrderItem(Product product, BigDecimal amount) {
         this.product = product;
-        purchasePrice = product.getPrice();
+        purchasePrice = product.getPrice().multiply(amount);
         this.amount = amount;
     }
 
@@ -28,39 +28,32 @@ public class OrderItem {
         return product;
     }
 
-    public BigDecimal calculateCost() {
-        return purchasePrice.multiply(amount).setScale(2, BigDecimal.ROUND_FLOOR);
-    }
-
     public BigDecimal getAmount() {
         return amount;
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj)
+    public boolean equals(Object o) {
+        if (this == o)
             return true;
-        if ((obj == null) || (!(obj instanceof OrderItem)))
+        if (o == null || getClass() != o.getClass())
             return false;
-        OrderItem that = (OrderItem) obj;
-        return product.equals(that.getProduct()) &&
-                purchasePrice.equals(that.purchasePrice) && amount.equals(that.getAmount());
+
+        OrderItem orderItem = (OrderItem) o;
+
+        if (product != null ? !product.equals(orderItem.product) : orderItem.product != null)
+            return false;
+        if (purchasePrice != null ? !purchasePrice.equals(orderItem.purchasePrice) : orderItem.purchasePrice != null)
+            return false;
+        return !(amount != null ? !amount.equals(orderItem.amount) : orderItem.amount != null);
+
     }
 
     @Override
     public int hashCode() {
-        int hash = 7;
-        hash = 31 * hash + product.hashCode();
-        hash = 31 * hash + purchasePrice.hashCode();
-        hash = 31 * hash + amount.hashCode();
-        return hash;
+        int result = product != null ? product.hashCode() : 0;
+        result = 31 * result + (purchasePrice != null ? purchasePrice.hashCode() : 0);
+        result = 31 * result + (amount != null ? amount.hashCode() : 0);
+        return result;
     }
-
-    @Override
-    public String toString() {
-        return product.toString() + "\t" + amount.setScale(2, BigDecimal.ROUND_FLOOR) +
-                "\t" + purchasePrice.setScale(2, BigDecimal.ROUND_FLOOR) + "\t   " + calculateCost();
-    }
-
-
 }

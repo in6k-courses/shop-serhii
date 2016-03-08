@@ -1,4 +1,5 @@
 import org.junit.Before;
+import org.junit.Test;
 import shop.model.OrderItem;
 import shop.model.Product;
 import shop.sale.ProductSale;
@@ -11,43 +12,27 @@ import java.util.List;
 import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.Matchers.closeTo;
 import static org.junit.Assert.assertThat;
 
 public class ProductSaleTest {
-
     List<OrderItem> orderItems;
-    Sale productSale ;
+    ProductSale productSale ;
 
     @Before
-    public void createOrderItem() {
-        Product item1 = new Product("phone", "o8s1", new BigDecimal(100));
-        Product item2 = new Product("laptop", "ui21", new BigDecimal(100));
-        Product item3 = new Product("phone", "a300", new BigDecimal(100));
-
+    public void createOrderItemAndAddProductWhichHaveSale() {
         orderItems = new ArrayList<>();
-        orderItems.add(new OrderItem(item1, new BigDecimal(1)));
-        orderItems.add(new OrderItem(item2, new BigDecimal(5)));
-        orderItems.add(new OrderItem(item3, new BigDecimal(3)));
+        Product phone = new Product("phone", "o8s1", new BigDecimal(100));
+        orderItems.add(new OrderItem(phone, new BigDecimal(1)));
 
-        Map<Product,BigDecimal> sealProducts = new HashMap<>();
-        Product product = new Product("phone", "a300", new BigDecimal(100));
-        sealProducts.put(product, new BigDecimal(0.5));
-        productSale = new ProductSale(sealProducts);
+        productSale = new ProductSale();
+        productSale.addSale(phone, new BigDecimal(0.5));
     }
 
-    @org.junit.Test
-    public void testProductSale() {
-
-        BigDecimal total = new BigDecimal(0);
+    @Test
+    public void testApplyingSaleToProduct() {
         productSale.applySale(orderItems);
-
-        for (OrderItem item : orderItems) {
-            total = total.add(item.getPurchasePrice());
-        }
-
-        BigDecimal actual  = total.setScale(2, BigDecimal.ROUND_FLOOR);
-        BigDecimal expected = new BigDecimal(250).setScale(2, BigDecimal.ROUND_FLOOR);
-        assertThat(actual, is(expected));
+        assertThat(orderItems.get(0).getPurchasePrice(), closeTo(new BigDecimal(50),new BigDecimal(0.01)));
     }
 
 }

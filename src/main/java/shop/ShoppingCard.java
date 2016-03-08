@@ -21,42 +21,21 @@ public class ShoppingCard {
         saleStrategy = new NoSale();
         discountStrategy = new NoDiscount();
     }
-//TODO change class to do one work
-    public String getCheck() {
-        BigDecimal total = getFullCost();
-        StringBuilder check = new StringBuilder("");
-        check.append(getCheckHead());
-        check.append(getCheckBody());
-        check.append("Total = " + total);
-        return check.toString();
-    }
 
-    private BigDecimal getFullCost() {
+    public BigDecimal getTotalCost(){
+        BigDecimal total;
         saleStrategy.applySale(orderItems);
-        BigDecimal total = getOrderItemTotalCost();
-        total = discountStrategy.applyDiscount(total);
-        return total.setScale(2, BigDecimal.ROUND_FLOOR);
-    }
-
-    private BigDecimal getOrderItemTotalCost() {
-        BigDecimal total = BigDecimal.ZERO;
-        for (OrderItem item : orderItems) {
-            total = total.add(item.calculateCost());
-        }
+        total = getTotalOrderItemCost();
+        total = total.subtract(discountStrategy.applyDiscount(total));
         return total;
     }
-    
-    private String getCheckHead() {
-        return "category\tmodel\tprice\tamount\tpriceSale \ttotal\n";
-    }
 
-    private String getCheckBody() {
-        StringBuilder checkBody = new StringBuilder();
-        for (OrderItem orderItem : orderItems) {
-            checkBody.append(orderItem);
-            checkBody.append("\n");
+    public BigDecimal getTotalOrderItemCost() {
+        BigDecimal total = BigDecimal.ZERO;
+        for(OrderItem item: orderItems){
+            total = total.add(item.getPurchasePrice());
         }
-        return checkBody.toString();
+        return total;
     }
 
     public void setSale(Sale saleStrategy) {

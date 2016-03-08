@@ -1,24 +1,26 @@
 
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.Matchers.closeTo;
+
+import org.junit.Test;
 import shop.discont.AmountDiscount;
 import shop.discont.Discount;
 import java.math.BigDecimal;
 
+
 public class AmountDiscountTest {
 
-    @org.junit.Test
-    public void testAmountDiscount() {
-        Discount amountDiscount = new AmountDiscount();
-        BigDecimal expect = new BigDecimal(1100).multiply(new BigDecimal(0.99)).setScale(2, BigDecimal.ROUND_FLOOR);
-
-        assertThat(amountDiscount.applyDiscount(new BigDecimal(1100)), is(expect));
+    @Test
+    public void testWithValueMoreThanAmount() {
+        Discount amountDiscount = new AmountDiscount(1000,new BigDecimal(0.5));
+        assertThat(amountDiscount.applyDiscount(new BigDecimal(1200)), closeTo(new BigDecimal(600),new BigDecimal(0.00)));
     }
-
-    @org.junit.Test
-    public void testLessAmount() {
-        AmountDiscount amountDiscount = new AmountDiscount();
-        assertThat(amountDiscount.applyDiscount(new BigDecimal(1000)), is(new BigDecimal(1000).setScale(2, BigDecimal.ROUND_FLOOR)));
+    
+    @Test
+    public void testWithLessAmount() {
+        AmountDiscount amountDiscount = new AmountDiscount(1000, new BigDecimal(0.5));
+        assertThat(amountDiscount.applyDiscount(new BigDecimal(500)), is(new BigDecimal(500)));
     }
 
 }

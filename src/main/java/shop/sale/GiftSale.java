@@ -9,12 +9,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class GiftSale implements Sale {
+public class GiftSale implements Sale{
     private Map<Product, Product> giftProducts;
 
-
-    public GiftSale(Map<Product, Product> giftProducts) {
-        this.giftProducts = giftProducts;
+    public GiftSale() {
+        this.giftProducts = new HashMap<>();
     }
 
     public void applySale(List<OrderItem> orderItems) {
@@ -27,6 +26,10 @@ public class GiftSale implements Sale {
         orderItems.addAll(gifts);
     }
 
+
+    public void addProductAndGift(Product product, Product gift) {
+        giftProducts.put(product, gift);
+    }
 
     private OrderItem getGift(OrderItem item) {
         Product product = item.getProduct();

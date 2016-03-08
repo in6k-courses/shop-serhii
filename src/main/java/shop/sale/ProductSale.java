@@ -12,14 +12,18 @@ public class ProductSale implements Sale {
 
     private Map<Product, BigDecimal> sealProducts;
 
-    public ProductSale(Map<Product, BigDecimal> sealProducts) {
-        this.sealProducts = sealProducts;
+    public ProductSale() {
+        this.sealProducts = new HashMap<>();
     }
 
     public void applySale(List<OrderItem> orderItems) {
         for (OrderItem item : orderItems)
             if (sealProducts.containsKey(item.getProduct()))
                 setSalePurchasePrice(item);
+    }
+
+    public void addSale(Product product, BigDecimal sale) {
+        sealProducts.put(product, sale);
     }
 
     private void setSalePurchasePrice(OrderItem item) {

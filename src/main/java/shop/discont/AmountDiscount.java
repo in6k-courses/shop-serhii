@@ -4,13 +4,17 @@ import java.math.BigDecimal;
 
 //TODO add constructor with amount and discount
 public class AmountDiscount implements Discount {
+    private int amount;
+    private BigDecimal discount;
 
-    private final int AMOUNT = 1000;
+    public AmountDiscount(int amount, BigDecimal discount) {
+        this.amount = amount;
+        this.discount = discount;
+    }
 
     public BigDecimal applyDiscount(BigDecimal price) {
-        if (price.doubleValue() > AMOUNT) {
-            return price.multiply(new BigDecimal(0.99)).setScale(2, BigDecimal.ROUND_FLOOR);
-        } else
-            return price.setScale(2, BigDecimal.ROUND_FLOOR);
+        if (price.intValue() > amount)
+            return price.multiply(discount);
+            return price;
     }
 }
