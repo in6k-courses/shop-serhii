@@ -5,49 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae2f41c3-e917-46c6-aa1b-8f3daba49599" name="Default" comment="cleaning code">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/shop/discont/ConstantDiscount.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ConstantDiscountTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/ShoppingCard.class" afterPath="$PROJECT_DIR$/target/classes/shop/ShoppingCard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/discont/AmountDiscount.class" afterPath="$PROJECT_DIR$/target/classes/shop/discont/AmountDiscount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/discont/CouponDiscount.class" afterPath="$PROJECT_DIR$/target/classes/shop/discont/CouponDiscount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/discont/Discount.class" afterPath="$PROJECT_DIR$/target/classes/shop/discont/Discount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/discont/NoDiscount.class" afterPath="$PROJECT_DIR$/target/classes/shop/discont/NoDiscount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/model/OrderItem.class" afterPath="$PROJECT_DIR$/target/classes/shop/model/OrderItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/model/Product.class" afterPath="$PROJECT_DIR$/target/classes/shop/model/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/sale/GiftSale.class" afterPath="$PROJECT_DIR$/target/classes/shop/sale/GiftSale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/sale/NoSale.class" afterPath="$PROJECT_DIR$/target/classes/shop/sale/NoSale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/sale/ProductSale.class" afterPath="$PROJECT_DIR$/target/classes/shop/sale/ProductSale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/sale/Sale.class" afterPath="$PROJECT_DIR$/target/classes/shop/sale/Sale.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AmountDiscountTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AmountDiscountTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/CouponDiscountTest.class" afterPath="$PROJECT_DIR$/target/test-classes/CouponDiscountTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/GiftSaleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/GiftSaleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ProductSaleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ProductSaleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ShoppingCardTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingCardTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shop.iml" afterPath="$PROJECT_DIR$/Shop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java" afterPath="$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/discont/AmountDiscount.java" afterPath="$PROJECT_DIR$/src/main/java/shop/discont/AmountDiscount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/discont/CouponDiscount.java" afterPath="$PROJECT_DIR$/src/main/java/shop/discont/CouponDiscount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/discont/Discount.java" afterPath="$PROJECT_DIR$/src/main/java/shop/discont/Discount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/model/OrderItem.java" afterPath="$PROJECT_DIR$/src/main/java/shop/model/OrderItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/shop/model/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java" afterPath="$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/sale/ProductSale.java" afterPath="$PROJECT_DIR$/src/main/java/shop/sale/ProductSale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AmountDiscountTest.java" afterPath="$PROJECT_DIR$/src/test/java/AmountDiscountTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CouponDiscountTest.java" afterPath="$PROJECT_DIR$/src/test/java/CouponDiscountTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/GiftSaleTest.java" afterPath="$PROJECT_DIR$/src/test/java/GiftSaleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ProductSaleTest.java" afterPath="$PROJECT_DIR$/src/test/java/ProductSaleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ShoppingCardTest.java" afterPath="$PROJECT_DIR$/src/test/java/ShoppingCardTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/AmountDiscountTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/AmountDiscountTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/ProductSaleTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/ProductSaleTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/ShoppingCardTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/ShoppingCardTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AmountDiscountTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AmountDiscountTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-GiftSaleTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-GiftSaleTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ProductSaleTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ProductSaleTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ShoppingCardTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ShoppingCardTest.xml" />
     </list>
     <ignored path="Shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCardTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,15 +61,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCard.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingCard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6706949">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
               <folding>
                 <element signature="e#774#775#0" expanded="true" />
                 <element signature="e#824#825#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductSaleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ProductSaleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46223566">
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,16 +142,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AmountDiscount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/AmountDiscount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -258,7 +216,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ProductSaleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/model/Product.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/ShoppingCardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/model/OrderItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/sale/ProductSale.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java" />
@@ -267,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/test/java/AmountDiscountTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/GiftSaleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ShoppingCardTest.java" />
       </list>
     </option>
   </component>
@@ -1166,7 +1124,7 @@
       <workItem from="1457333501633" duration="20713000" />
       <workItem from="1457356393732" duration="8933000" />
       <workItem from="1457457773995" duration="10933000" />
-      <workItem from="1457507067807" duration="12373000" />
+      <workItem from="1457507067807" duration="12742000" />
     </task>
     <servers />
   </component>
@@ -1183,6 +1141,9 @@
     <history-entry file="All_in_Shop - 2016.03.09 at 12h 37m 30s.xml">
       <configuration name="All in Shop" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Shop - 2016.03.09 at 12h 37m 34s.xml">
+      <configuration name="All in Shop" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="GiftSaleTest_testIfOrderItemsContainsGiftOrderItemAfterApplySale - 2016.03.09 at 12h 25m 25s.xml">
       <configuration name="GiftSaleTest.testIfOrderItemsContainsGiftOrderItemAfterApplySale" configurationId="JUnit" />
     </history-entry>
@@ -1195,15 +1156,12 @@
     <history-entry file="GiftSaleTest_testIfOrderItemsContainsGiftOrderItemAfterApplySale - 2016.03.09 at 12h 32m 06s.xml">
       <configuration name="GiftSaleTest.testIfOrderItemsContainsGiftOrderItemAfterApplySale" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCardTest_testOrderItemWithCouponDiscountAndGiftSale - 2016.03.09 at 12h 07m 16s.xml">
-      <configuration name="ShoppingCardTest.testOrderItemWithCouponDiscountAndGiftSale" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoppingCardTest_testOrderItemWithCouponDiscountAndGiftSale - 2016.03.09 at 12h 07m 26s.xml">
       <configuration name="ShoppingCardTest.testOrderItemWithCouponDiscountAndGiftSale" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109691000" />
+    <option name="totallyTimeSpent" value="110060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1223,11 +1181,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.41406944" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.47605225" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.47024673" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5324814" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2662407" sideWeight="0.5859305" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5239478" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.5550725" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="679" y="270" width="956" height="740" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2662407" sideWeight="0.5859305" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.52975327" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.5550725" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="679" y="270" width="956" height="740" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22896698" sideWeight="0.49553" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1608,14 +1566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ProductSaleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/shop/sale/Sale.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1702,16 +1652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CouponDiscountTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1744,12 +1684,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6706949">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
           <folding>
             <element signature="e#774#775#0" expanded="true" />
             <element signature="e#824#825#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProductSaleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46223566">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

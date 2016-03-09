@@ -24,7 +24,6 @@ public class ProductSaleTest {
         orderItems = new ArrayList<>();
         Product phone = new Product("phone", "o8s1", new BigDecimal(100));
         orderItems.add(new OrderItem(phone, new BigDecimal(1)));
-
         productSale = new ProductSale();
         productSale.addSale(phone, new BigDecimal(0.5));
     }

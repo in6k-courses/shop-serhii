@@ -3,11 +3,9 @@ package shop.model;
 import java.math.BigDecimal;
 
 public class OrderItem {
-
     private Product product;
     private BigDecimal purchasePrice;
     private BigDecimal amount;
-
 
     public OrderItem(Product product, BigDecimal amount) {
         this.product = product;
