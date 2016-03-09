@@ -6,12 +6,12 @@ import shop.discont.NoDiscount;
 import shop.model.OrderItem;
 import shop.sale.NoSale;
 import shop.sale.Sale;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingCard {
-
     private List<OrderItem> orderItems;
     private Sale saleStrategy;
     private Discount discountStrategy;
@@ -22,20 +22,26 @@ public class ShoppingCard {
         discountStrategy = new NoDiscount();
     }
 
-    public BigDecimal getTotalCost(){
-        BigDecimal total;
-        saleStrategy.applySale(orderItems);
-        total = getTotalOrderItemCost();
-        total = total.subtract(discountStrategy.applyDiscount(total));
+    public BigDecimal getTotalCost() {
+        applySaleToOrderItem();
+        BigDecimal total = getOrderItemTotalCost();
+        total = getTotalCostWithDiscount(total);
         return total;
     }
 
-    public BigDecimal getTotalOrderItemCost() {
+    private void applySaleToOrderItem() {
+        saleStrategy.applySale(orderItems);
+    }
+
+    public BigDecimal getOrderItemTotalCost() {
         BigDecimal total = BigDecimal.ZERO;
-        for(OrderItem item: orderItems){
+        for (OrderItem item : orderItems)
             total = total.add(item.getPurchasePrice());
-        }
         return total;
+    }
+
+    private BigDecimal getTotalCostWithDiscount(BigDecimal total) {
+        return total.subtract(discountStrategy.applyDiscount(total));
     }
 
     public void setSale(Sale saleStrategy) {
@@ -46,16 +52,16 @@ public class ShoppingCard {
         this.discountStrategy = discountStrategy;
     }
 
-    public void addOrderItem(OrderItem orderItem) {
-        orderItems.add(orderItem);
-    }
-
     public List<OrderItem> getOrderItems() {
         return orderItems;
     }
 
-    public void removeOrderItem(OrderItem orderItem){
-        if(orderItems.contains(orderItem)){
+    public void addOrderItem(OrderItem orderItem) {
+        orderItems.add(orderItem);
+    }
+
+    public void removeOrderItem(OrderItem orderItem) {
+        if (orderItems.contains(orderItem)) {
             orderItems.remove(orderItem);
         }
     }

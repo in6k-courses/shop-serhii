@@ -17,7 +17,7 @@ import static org.junit.Assert.assertThat;
 
 public class ProductSaleTest {
     List<OrderItem> orderItems;
-    ProductSale productSale ;
+    ProductSale productSale;
 
     @Before
     public void createOrderItemAndAddProductWhichHaveSale() {
@@ -32,7 +32,7 @@ public class ProductSaleTest {
     @Test
     public void testApplyingSaleToProduct() {
         productSale.applySale(orderItems);
-        assertThat(orderItems.get(0).getPurchasePrice(), closeTo(new BigDecimal(50),new BigDecimal(0.01)));
+        assertThat(orderItems.get(0).getPurchasePrice(), closeTo(new BigDecimal(50), new BigDecimal(0.01)));
     }
 
 }

@@ -8,7 +8,6 @@ public class OrderItem {
     private BigDecimal purchasePrice;
     private BigDecimal amount;
 
-    //TODO write correct purchasePrice
 
     public OrderItem(Product product, BigDecimal amount) {
         this.product = product;
@@ -38,15 +37,12 @@ public class OrderItem {
             return true;
         if (o == null || getClass() != o.getClass())
             return false;
-
         OrderItem orderItem = (OrderItem) o;
-
         if (product != null ? !product.equals(orderItem.product) : orderItem.product != null)
             return false;
         if (purchasePrice != null ? !purchasePrice.equals(orderItem.purchasePrice) : orderItem.purchasePrice != null)
             return false;
         return !(amount != null ? !amount.equals(orderItem.amount) : orderItem.amount != null);
-
     }
 
     @Override
@@ -56,4 +52,5 @@ public class OrderItem {
         result = 31 * result + (amount != null ? amount.hashCode() : 0);
         return result;
     }
+
 }

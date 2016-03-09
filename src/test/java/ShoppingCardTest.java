@@ -1,14 +1,10 @@
 import org.junit.Before;
 import org.junit.Test;
 import shop.ShoppingCard;
-import shop.discont.AmountDiscount;
-import shop.discont.CouponDiscount;
-import shop.discont.NoDiscount;
+import shop.discont.*;
+import shop.sale.*;
 import shop.model.OrderItem;
 import shop.model.Product;
-import shop.sale.GiftSale;
-import shop.sale.NoSale;
-import shop.sale.ProductSale;
 
 import java.math.BigDecimal;
 
@@ -17,8 +13,8 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.closeTo;
 import static org.junit.Assert.assertThat;
 
-public class ShoppingCardTest {
 
+public class ShoppingCardTest {
     ShoppingCard shoppingCard;
     Product phone;
 
@@ -45,29 +41,40 @@ public class ShoppingCardTest {
         assertThat(shoppingCard.getTotalCost(), closeTo(new BigDecimal(100), new BigDecimal(0.01)));
     }
 
-
     @Test
     public void testTotalCostWithGiftSale() {
         GiftSale giftSale = new GiftSale();
         Product gift = new Product("cover to phone", "e432", new BigDecimal(10));
         giftSale.addProductAndGift(phone, gift);
         shoppingCard.setSale(giftSale);
-        assertThat(shoppingCard.getTotalCost(),is(new BigDecimal(200)));
+        assertThat(shoppingCard.getTotalCost(), is(new BigDecimal(200)));
+        assertThat(shoppingCard.getOrderItems().size(), is(2));
     }
 
     @Test
-    public void testTotalCostWithAmountDiscount(){
-        AmountDiscount amountDiscount = new AmountDiscount(100,new BigDecimal(0.5));
+    public void testTotalCostWithAmountDiscount() {
+        AmountDiscount amountDiscount = new AmountDiscount(100, new BigDecimal(0.5));
         shoppingCard.setDiscount(amountDiscount);
-        assertThat(shoppingCard.getTotalCost(),closeTo(new BigDecimal(100),new BigDecimal(0.01)));
-        System.out.println(shoppingCard.getTotalCost());
+        assertThat(shoppingCard.getTotalCost(), closeTo(new BigDecimal(100), new BigDecimal(0.01)));
     }
 
     @Test
-    public void testTotalCostWithCouponDiscount(){
+    public void testTotalCostWithCouponDiscount() {
         CouponDiscount couponDiscount = new CouponDiscount(new BigDecimal(10));
         shoppingCard.setDiscount(couponDiscount);
-        assertThat(shoppingCard.getTotalCost(),closeTo(new BigDecimal(190),new BigDecimal(0.01)));
+        assertThat(shoppingCard.getTotalCost(), closeTo(new BigDecimal(190), new BigDecimal(0.01)));
+    }
+
+    @Test
+    public void testOrderItemWithCouponDiscountAndGiftSale() {
+        shoppingCard.setDiscount(new CouponDiscount(new BigDecimal(10)));
+        shoppingCard.setSale(new GiftSale());
+        assertThat(shoppingCard.getTotalCost(), closeTo(new BigDecimal(190), new BigDecimal(0.01)));
+    }
+
+    @Test
+    public void testTotalOrderItemCost() {
+        assertThat(shoppingCard.getTotalCost(), closeTo(new BigDecimal(200), new BigDecimal(0.01)));
     }
 
     @Test
@@ -91,5 +98,4 @@ public class ShoppingCardTest {
         shoppingCard.removeOrderItem(item);
         assertThat(shoppingCard.getOrderItems().size(), is(0));
     }
-
 }

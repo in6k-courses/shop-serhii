@@ -2,16 +2,15 @@ package shop.discont;
 
 import java.math.BigDecimal;
 
-//TODO change class to купон
 public class CouponDiscount implements Discount {
-    private BigDecimal couponSize;
+    private final BigDecimal COUPON_sIZE;
 
     public CouponDiscount(BigDecimal couponSize) {
-        this.couponSize = couponSize;
+        this.COUPON_sIZE = couponSize;
     }
 
     public BigDecimal applyDiscount(BigDecimal price) {
-        return couponSize ;
+        return COUPON_sIZE;
     }
 
 }

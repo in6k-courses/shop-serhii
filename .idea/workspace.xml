@@ -1,46 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java" line="41" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java" line="39" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae2f41c3-e917-46c6-aa1b-8f3daba49599" name="Default" comment="cleaning code">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/shop/discont/CouponDiscount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CouponDiscountTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/shop/discont/ConstantDiscount.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ConstantDiscountTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/shop/discont/ConstantDiscount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ConstantDiscountTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/ShoppingCard.class" afterPath="$PROJECT_DIR$/target/classes/shop/ShoppingCard.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/discont/AmountDiscount.class" afterPath="$PROJECT_DIR$/target/classes/shop/discont/AmountDiscount.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/discont/CouponDiscount.class" afterPath="$PROJECT_DIR$/target/classes/shop/discont/CouponDiscount.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/discont/Discount.class" afterPath="$PROJECT_DIR$/target/classes/shop/discont/Discount.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/discont/NoDiscount.class" afterPath="$PROJECT_DIR$/target/classes/shop/discont/NoDiscount.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/model/OrderItem.class" afterPath="$PROJECT_DIR$/target/classes/shop/model/OrderItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/model/Product.class" afterPath="$PROJECT_DIR$/target/classes/shop/model/Product.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/sale/GiftSale.class" afterPath="$PROJECT_DIR$/target/classes/shop/sale/GiftSale.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/sale/NoSale.class" afterPath="$PROJECT_DIR$/target/classes/shop/sale/NoSale.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/sale/ProductSale.class" afterPath="$PROJECT_DIR$/target/classes/shop/sale/ProductSale.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/shop/sale/Sale.class" afterPath="$PROJECT_DIR$/target/classes/shop/sale/Sale.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AmountDiscountTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AmountDiscountTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/CouponDiscountTest.class" afterPath="$PROJECT_DIR$/target/test-classes/CouponDiscountTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/GiftSaleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/GiftSaleTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ProductSaleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ProductSaleTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ShoppingCardTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingCardTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shop.iml" afterPath="$PROJECT_DIR$/Shop.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java" afterPath="$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/discont/AmountDiscount.java" afterPath="$PROJECT_DIR$/src/main/java/shop/discont/AmountDiscount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/discont/NoDiscount.java" afterPath="$PROJECT_DIR$/src/main/java/shop/discont/NoDiscount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/discont/CouponDiscount.java" afterPath="$PROJECT_DIR$/src/main/java/shop/discont/CouponDiscount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/discont/Discount.java" afterPath="$PROJECT_DIR$/src/main/java/shop/discont/Discount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/model/OrderItem.java" afterPath="$PROJECT_DIR$/src/main/java/shop/model/OrderItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/shop/model/Product.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java" afterPath="$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/sale/NoSale.java" afterPath="$PROJECT_DIR$/src/main/java/shop/sale/NoSale.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/sale/ProductSale.java" afterPath="$PROJECT_DIR$/src/main/java/shop/sale/ProductSale.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/shop/sale/Sale.java" afterPath="$PROJECT_DIR$/src/main/java/shop/sale/Sale.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AmountDiscountTest.java" afterPath="$PROJECT_DIR$/src/test/java/AmountDiscountTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CouponDiscountTest.java" afterPath="$PROJECT_DIR$/src/test/java/CouponDiscountTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/GiftSaleTest.java" afterPath="$PROJECT_DIR$/src/test/java/GiftSaleTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ProductSaleTest.java" afterPath="$PROJECT_DIR$/src/test/java/ProductSaleTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ShoppingCardTest.java" afterPath="$PROJECT_DIR$/src/test/java/ShoppingCardTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/AmountDiscountTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/AmountDiscountTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/ConstantDiscountTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/ConstantDiscountTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/ProductSaleTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/ProductSaleTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/ShoppingCardTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/ShoppingCardTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AmountDiscountTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AmountDiscountTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ConstantDiscountTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ConstantDiscountTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-GiftSaleTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-GiftSaleTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ProductSaleTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ProductSaleTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ShoppingCardTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ShoppingCardTest.xml" />
@@ -59,7 +63,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Shop$All_in_Shop.coverage" NAME="All in Shop Coverage Results" MODIFIED="1457356319979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Shop$All_in_Shop.coverage" NAME="All in Shop Coverage Results" MODIFIED="1457519132738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -76,12 +80,119 @@
     <favorites_list name="Shop" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ShoppingCardTest.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ShoppingCardTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43250328">
-              <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GiftSaleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GiftSaleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingCard.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6706949">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shop/model/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Discount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/Discount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoDiscount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/NoDiscount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AmountDiscountTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AmountDiscountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouponDiscountTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CouponDiscountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AmountDiscount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/AmountDiscount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/shop/model/OrderItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -129,7 +240,6 @@
         <option value="$PROJECT_DIR$/src/main/java/shop/Customer.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProductSale.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/shop/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/product/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/product/OrderItem.java" />
@@ -137,23 +247,26 @@
         <option value="$PROJECT_DIR$/src/test/java/DoubleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ConstantDiscountTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/discont/ConstantDiscount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/shop/discont/Discount.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/shop/discont/СouponDiscount.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AmountDiscountTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/СouponDiscountTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/shop/discont/AmountDiscount.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/discont/NoDiscount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/shop/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/shop/model/OrderItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/sale/Sale.java" />
-        <option value="$PROJECT_DIR$/src/main/java/shop/sale/ProductSale.java" />
         <option value="$PROJECT_DIR$/src/main/java/shop/sale/NoSale.java" />
-        <option value="$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java" />
-        <option value="$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java" />
-        <option value="$PROJECT_DIR$/src/test/java/GiftSaleTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/shop/discont/AmountDiscount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CouponDiscountTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProductSaleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/shop/model/Product.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/ShoppingCardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/shop/model/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/shop/sale/ProductSale.java" />
+        <option value="$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java" />
+        <option value="$PROJECT_DIR$/src/main/java/shop/discont/Discount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/shop/discont/CouponDiscount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AmountDiscountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GiftSaleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java" />
       </list>
     </option>
   </component>
@@ -203,9 +316,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="337" />
-    <option name="width" value="1584" />
-    <option name="height" value="1055" />
+    <option name="x" value="-1" />
+    <option name="y" value="25" />
+    <option name="width" value="1922" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -251,17 +365,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Shop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -293,6 +402,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,6 +543,7 @@
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,22 +552,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="59" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="213" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="66" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="238" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="70" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="244" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="731" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1153" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="59" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="290" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="66" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="296" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="70" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="301" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="731" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="961" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -449,90 +580,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.All in Shop">
-    <configuration default="false" name="ShoppingCardTest.testTotalCostWithProductSale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Shop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCardTest" />
-      <option name="METHOD_NAME" value="testTotalCostWithProductSale" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShoppingCardTest.testWithGiftSale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Shop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCardTest" />
-      <option name="METHOD_NAME" value="testWithGiftSale" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShoppingCardTest.testTotalCostWithAmountDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Shop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCardTest" />
-      <option name="METHOD_NAME" value="testTotalCostWithAmountDiscount" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShoppingCardTest.testTotalCostWithCouponDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Shop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingCardTest" />
-      <option name="METHOD_NAME" value="testTotalCostWithCouponDiscount" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="All in Shop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Shop" />
@@ -542,6 +589,90 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShoppingCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Shop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingCardTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShoppingCardTest.testTotalOrderItemCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Shop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingCardTest" />
+      <option name="METHOD_NAME" value="testTotalOrderItemCost" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShoppingCardTest.testOrderItemWithCouponDiscountAndGiftSale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Shop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingCardTest" />
+      <option name="METHOD_NAME" value="testOrderItemWithCouponDiscountAndGiftSale" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GiftSaleTest.testIfOrderItemsContainsGiftOrderItemAfterApplySale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Shop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GiftSaleTest" />
+      <option name="METHOD_NAME" value="testIfOrderItemsContainsGiftOrderItemAfterApplySale" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -785,6 +916,16 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -861,6 +1002,18 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Shop" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
       <method />
     </configuration>
@@ -977,19 +1130,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testTotalCostWithProductSale" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testWithGiftSale" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testTotalCostWithAmountDiscount" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testTotalCostWithCouponDiscount" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Shop" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in Shop" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testTotalOrderItemCost" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testOrderItemWithCouponDiscountAndGiftSale" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GiftSaleTest.testIfOrderItemsContainsGiftOrderItemAfterApplySale" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in Shop" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testTotalCostWithCouponDiscount" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testTotalCostWithAmountDiscount" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testWithGiftSale" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testTotalCostWithProductSale" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GiftSaleTest.testIfOrderItemsContainsGiftOrderItemAfterApplySale" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testOrderItemWithCouponDiscountAndGiftSale" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest.testTotalOrderItemCost" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShoppingCardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1013,43 +1166,44 @@
       <workItem from="1457333501633" duration="20713000" />
       <workItem from="1457356393732" duration="8933000" />
       <workItem from="1457457773995" duration="10933000" />
+      <workItem from="1457507067807" duration="12373000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductSaleTest_testApplyingSaleToProduct - 2016.03.08 at 22h 38m 42s.xml">
-      <configuration name="ProductSaleTest.testApplyingSaleToProduct" configurationId="JUnit" />
+    <history-entry file="All_in_Shop - 2016.03.09 at 12h 25m 33s.xml">
+      <configuration name="All in Shop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCardTest_testTotalCostWithAmountDiscount - 2016.03.08 at 23h 28m 21s.xml">
-      <configuration name="ShoppingCardTest.testTotalCostWithAmountDiscount" configurationId="JUnit" />
+    <history-entry file="All_in_Shop - 2016.03.09 at 12h 32m 42s.xml">
+      <configuration name="All in Shop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCardTest_testTotalCostWithAmountDiscount - 2016.03.08 at 23h 28m 47s.xml">
-      <configuration name="ShoppingCardTest.testTotalCostWithAmountDiscount" configurationId="JUnit" />
+    <history-entry file="All_in_Shop - 2016.03.09 at 12h 34m 20s.xml">
+      <configuration name="All in Shop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCardTest_testTotalCostWithCouponDiscount - 2016.03.08 at 23h 31m 29s.xml">
-      <configuration name="ShoppingCardTest.testTotalCostWithCouponDiscount" configurationId="JUnit" />
+    <history-entry file="All_in_Shop - 2016.03.09 at 12h 37m 30s.xml">
+      <configuration name="All in Shop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCardTest_testTotalCostWithCouponDiscount - 2016.03.08 at 23h 31m 35s.xml">
-      <configuration name="ShoppingCardTest.testTotalCostWithCouponDiscount" configurationId="JUnit" />
+    <history-entry file="GiftSaleTest_testIfOrderItemsContainsGiftOrderItemAfterApplySale - 2016.03.09 at 12h 25m 25s.xml">
+      <configuration name="GiftSaleTest.testIfOrderItemsContainsGiftOrderItemAfterApplySale" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCardTest_testTotalCostWithOutSaleAndDiscount - 2016.03.08 at 22h 41m 48s.xml">
-      <configuration name="ShoppingCardTest.testTotalCostWithOutSaleAndDiscount" configurationId="JUnit" />
+    <history-entry file="GiftSaleTest_testIfOrderItemsContainsGiftOrderItemAfterApplySale - 2016.03.09 at 12h 31m 22s.xml">
+      <configuration name="GiftSaleTest.testIfOrderItemsContainsGiftOrderItemAfterApplySale" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCardTest_testTotalCostWithOutSaleAndDiscount - 2016.03.08 at 22h 44m 41s.xml">
-      <configuration name="ShoppingCardTest.testTotalCostWithOutSaleAndDiscount" configurationId="JUnit" />
+    <history-entry file="GiftSaleTest_testIfOrderItemsContainsGiftOrderItemAfterApplySale - 2016.03.09 at 12h 31m 58s.xml">
+      <configuration name="GiftSaleTest.testIfOrderItemsContainsGiftOrderItemAfterApplySale" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCardTest_testWithGiftSale - 2016.03.08 at 22h 53m 58s.xml">
-      <configuration name="ShoppingCardTest.testWithGiftSale" configurationId="JUnit" />
+    <history-entry file="GiftSaleTest_testIfOrderItemsContainsGiftOrderItemAfterApplySale - 2016.03.09 at 12h 32m 06s.xml">
+      <configuration name="GiftSaleTest.testIfOrderItemsContainsGiftOrderItemAfterApplySale" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCardTest_testWithGiftSale - 2016.03.08 at 22h 55m 40s.xml">
-      <configuration name="ShoppingCardTest.testWithGiftSale" configurationId="JUnit" />
+    <history-entry file="ShoppingCardTest_testOrderItemWithCouponDiscountAndGiftSale - 2016.03.09 at 12h 07m 16s.xml">
+      <configuration name="ShoppingCardTest.testOrderItemWithCouponDiscountAndGiftSale" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShoppingCardTest_testWithProductSale - 2016.03.08 at 22h 49m 22s.xml">
-      <configuration name="ShoppingCardTest.testWithProductSale" configurationId="JUnit" />
+    <history-entry file="ShoppingCardTest_testOrderItemWithCouponDiscountAndGiftSale - 2016.03.09 at 12h 07m 26s.xml">
+      <configuration name="ShoppingCardTest.testOrderItemWithCouponDiscountAndGiftSale" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97318000" />
+    <option name="totallyTimeSpent" value="109691000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1061,40 +1215,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="337" y="0" width="1584" height="1055" extended-state="0" />
+    <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Facebook Chat" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.41406944" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="524" y="160" width="1223" height="820" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49475065" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53333336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17494601" sideWeight="0.5859305" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.5550725" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="679" y="627" width="956" height="383" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.47605225" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5324814" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2662407" sideWeight="0.5859305" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5239478" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.5550725" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="679" y="270" width="956" height="740" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19621904" sideWeight="0.49553" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22896698" sideWeight="0.49553" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22709678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498265" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17147435" sideWeight="0.50447" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21831638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40788072" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Facebook Chat" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296322" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="524" y="160" width="1223" height="820" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5052493" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1142,7 +1296,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="9" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1151,31 +1305,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/CouponDiscountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/Discount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GiftSaleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457469448276" expanded="true" signature="7:303" placeholder="..." />
-            <marker date="1457469448276" expanded="true" signature="480:957" placeholder="{...}" />
-            <marker date="1457469448276" expanded="true" signature="1039:1142" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,15 +1317,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1457468314956" expanded="false" signature="27:204" placeholder="..." />
-            <marker date="1457468314956" expanded="false" signature="315:326" placeholder=" { " />
-            <marker date="1457468314956" expanded="false" signature="362:368" placeholder=" }" />
-            <marker date="1457468314956" expanded="true" signature="424:689" placeholder="{...}" />
-            <marker date="1457468314956" expanded="false" signature="756:767" placeholder=" { " />
-            <marker date="1457468314956" expanded="false" signature="799:805" placeholder=" }" />
-            <marker date="1457468314956" expanded="true" signature="853:1118" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,10 +1325,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <element signature="e#299#300#0" expanded="false" />
-            <element signature="e#350#351#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,10 +1340,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding>
-            <marker date="1457465450448" expanded="true" signature="268:339" placeholder="{...}" />
-            <marker date="1457465450448" expanded="true" signature="395:512" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,9 +1349,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <marker date="1457465450456" expanded="true" signature="8:250" placeholder="..." />
-            <marker date="1457465450456" expanded="true" signature="344:554" placeholder="{...}" />
-            <marker date="1457465450456" expanded="true" signature="607:797" placeholder="{...}" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1240,12 +1358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <marker date="1457472601172" expanded="false" signature="216:227" placeholder=" { " />
-            <marker date="1457472601172" expanded="false" signature="256:262" placeholder=" }" />
-            <marker date="1457472601172" expanded="true" signature="317:328" placeholder=" { " />
-            <marker date="1457472601172" expanded="true" signature="347:353" placeholder=" }" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,7 +1366,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,10 +1384,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#299#300#0" expanded="false" />
-            <element signature="e#350#351#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,15 +1392,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1457468314956" expanded="false" signature="27:204" placeholder="..." />
-            <marker date="1457468314956" expanded="false" signature="315:326" placeholder=" { " />
-            <marker date="1457468314956" expanded="false" signature="362:368" placeholder=" }" />
-            <marker date="1457468314956" expanded="true" signature="424:689" placeholder="{...}" />
-            <marker date="1457468314956" expanded="false" signature="756:767" placeholder=" { " />
-            <marker date="1457468314956" expanded="false" signature="799:805" placeholder=" }" />
-            <marker date="1457468314956" expanded="true" signature="853:1118" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,10 +1415,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <marker date="1457465450448" expanded="true" signature="268:339" placeholder="{...}" />
-            <marker date="1457465450448" expanded="true" signature="395:512" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1322,12 +1423,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1457472601172" expanded="false" signature="216:227" placeholder=" { " />
-            <marker date="1457472601172" expanded="false" signature="256:262" placeholder=" }" />
-            <marker date="1457472601172" expanded="true" signature="317:328" placeholder=" { " />
-            <marker date="1457472601172" expanded="true" signature="347:353" placeholder=" }" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1336,9 +1432,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="62" />
           <folding>
-            <marker date="1457465450456" expanded="true" signature="8:250" placeholder="..." />
-            <marker date="1457465450456" expanded="true" signature="344:554" placeholder="{...}" />
-            <marker date="1457465450456" expanded="true" signature="607:797" placeholder="{...}" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1440,45 +1534,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91831684">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <marker date="1457461933936" expanded="true" signature="89:1189" placeholder="..." />
-            <marker date="1457461933936" expanded="true" signature="410:773" placeholder="..." />
-            <marker date="1457461933936" expanded="true" signature="428:760" placeholder="..." />
-            <marker date="1457461933936" expanded="true" signature="449:741" placeholder="..." />
-            <marker date="1457461933936" expanded="true" signature="604:719" placeholder="..." />
-            <marker date="1457461933936" expanded="true" signature="793:1177" placeholder="..." />
-            <marker date="1457461933936" expanded="true" signature="814:984" placeholder="..." />
-            <marker date="1457461933936" expanded="true" signature="1005:1156" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar!/org/hamcrest/number/BigDecimalCloseTo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27227724">
           <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <marker date="1341856186000" expanded="false" signature="0:104" placeholder="/.../" />
-            <marker date="1341856186000" expanded="false" signature="143:322" placeholder="..." />
-            <marker date="1341856186000" expanded="true" signature="531:594" placeholder="{...}" />
-            <marker date="1341856186000" expanded="false" signature="645:656" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="718:724" placeholder=" }" />
-            <marker date="1341856186000" expanded="true" signature="815:933" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="987:1120" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="1174:1319" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="1418:1479" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1486,381 +1545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33259425">
           <caret line="112" column="38" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="38" />
-          <folding>
-            <marker date="1341856186000" expanded="false" signature="0:104" placeholder="/.../" />
-            <marker date="1341856186000" expanded="false" signature="136:880" placeholder="..." />
-            <marker date="1341856186000" expanded="true" signature="936:943" placeholder="{...}" />
-            <marker date="1341856186000" expanded="false" signature="1022:1033" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="1062:1068" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="1129:1140" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="1169:1175" placeholder=" }" />
-            <marker date="1341856186000" expanded="true" signature="1269:1319" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="1439:1496" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="1643:1708" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="1881:1953" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="2152:2231" placeholder="{...}" />
-            <marker date="1341856186000" expanded="false" signature="2308:2319" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="2348:2354" placeholder=" }" />
-            <marker date="1341856186000" expanded="true" signature="2464:2521" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="2658:2723" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="2886:2958" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="3147:3226" placeholder="{...}" />
-            <marker date="1341856186000" expanded="false" signature="3309:3320" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="3354:3360" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="3419:3430" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="3459:3465" placeholder=" }" />
-            <marker date="1341856186000" expanded="true" signature="3553:3608" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="3700:3757" placeholder="{...}" />
-            <marker date="1341856186000" expanded="true" signature="3862:3939" placeholder="{...}" />
-            <marker date="1341856186000" expanded="false" signature="4017:4028" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="4064:4070" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="4116:4127" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="4147:4153" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="4210:4221" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="4243:4249" placeholder=" }" />
-            <marker date="1341856186000" expanded="true" signature="4255:4273" placeholder="/**...*/" />
-            <marker date="1341856186000" expanded="false" signature="4324:4335" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="4354:4360" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="4413:4424" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="4444:4450" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="4496:4507" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="4536:4542" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="4606:4617" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="4657:4663" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="4731:4742" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="4786:4792" placeholder=" }" />
-            <marker date="1341856186000" expanded="true" signature="4885:4952" placeholder="{...}" />
-            <marker date="1341856186000" expanded="false" signature="5017:5028" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="5074:5080" placeholder=" }" />
-            <marker date="1341856186000" expanded="true" signature="5159:5228" placeholder="{...}" />
-            <marker date="1341856186000" expanded="false" signature="5281:5292" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="5324:5330" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="5383:5394" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="5424:5430" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="5490:5501" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="5538:5544" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="5602:5613" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="5639:5645" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="5692:5703" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="5727:5733" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="5780:5791" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="5817:5823" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="5882:5893" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="5923:5929" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="5979:5990" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="6019:6025" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="6087:6098" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="6131:6137" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="6194:6205" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="6240:6246" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="6302:6313" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="6347:6353" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="6421:6432" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="6480:6486" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="6547:6558" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="6601:6607" placeholder=" }" />
-            <marker date="1341856186000" expanded="false" signature="6666:6677" placeholder=" { " />
-            <marker date="1341856186000" expanded="false" signature="6716:6722" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar!/org/hamcrest/Matchers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34898278">
-          <caret line="387" column="38" selection-start-line="387" selection-start-column="38" selection-end-line="387" selection-end-column="38" />
-          <folding>
-            <marker date="1341856190000" expanded="false" signature="0:104" placeholder="/.../" />
-            <marker date="1341856190000" expanded="false" signature="136:2359" placeholder="..." />
-            <marker date="1341856190000" expanded="true" signature="2407:2414" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="2493:2504" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="2533:2539" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="2600:2611" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="2640:2646" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="2740:2790" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="2910:2967" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="3114:3179" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="3352:3424" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="3623:3702" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="3779:3790" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="3819:3825" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="3935:3992" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="4129:4194" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="4357:4429" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="4618:4697" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="4780:4791" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="4825:4831" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="4890:4901" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="4930:4936" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="5024:5079" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="5171:5228" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="5333:5410" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="5488:5499" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="5535:5541" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="5587:5598" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="5618:5624" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="5681:5692" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="5714:5720" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="5726:5744" placeholder="/**...*/" />
-            <marker date="1341856190000" expanded="false" signature="5795:5806" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="5825:5831" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="5884:5895" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="5915:5921" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="5967:5978" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="6007:6013" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="6077:6088" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="6128:6134" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="6202:6213" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="6257:6263" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="6356:6423" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="6488:6499" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="6545:6551" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="6630:6699" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="6752:6763" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="6795:6801" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="6854:6865" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="6895:6901" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="6961:6972" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="7009:7015" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="7073:7084" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="7110:7116" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="7163:7174" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="7198:7204" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="7251:7262" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="7288:7294" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="7353:7364" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="7394:7400" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="7450:7461" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="7490:7496" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="7558:7569" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="7602:7608" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="7665:7676" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="7711:7717" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="7773:7784" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="7818:7824" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="7892:7903" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="7951:7957" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="8018:8029" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="8072:8078" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="8137:8148" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="8187:8193" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="8261:8272" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="8310:8316" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="8378:8389" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="8438:8444" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="8531:8603" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="8695:8773" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="8838:8909" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="8987:9065" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="9140:9224" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="9312:9403" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="9511:9602" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="9691:9757" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="9817:9828" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="9871:9877" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="9926:9937" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="9973:9979" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="10082:10147" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="10221:10232" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="10274:10280" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="10344:10355" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="10388:10394" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="10474:10539" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="10609:10620" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="10659:10665" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="10741:10802" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="10891:10965" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="11041:11108" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="11204:11277" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="11380:11454" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="11540:11620" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="11739:11826" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="11925:12012" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="12018:12036" placeholder="/**...*/" />
-            <marker date="1341856190000" expanded="true" signature="12141:12227" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="12327:12399" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="12471:12536" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="12627:12687" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="12826:12900" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="12991:13049" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="13115:13126" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="13161:13167" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="13237:13248" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="13287:13293" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="13388:13450" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="13515:13526" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="13555:13561" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="13612:13623" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="13648:13654" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="13711:13722" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="13752:13758" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="13831:13842" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="13883:13889" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="13975:14040" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="14122:14187" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="14265:14326" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="14413:14483" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="14557:14568" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="14610:14616" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="14700:14767" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="14846:14925" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="15010:15101" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="15152:15163" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="15200:15206" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="15263:15274" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="15317:15323" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="15410:15489" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="15577:15641" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="15713:15778" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="15858:15927" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="16034:16099" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="16164:16175" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="16212:16218" placeholder=" }" />
-            <marker date="1341856190000" expanded="false" signature="16285:16296" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="16341:16347" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="16440:16524" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="16596:16675" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="16767:16833" placeholder="{...}" />
-            <marker date="1341856190000" expanded="false" signature="16889:16900" placeholder=" { " />
-            <marker date="1341856190000" expanded="false" signature="16932:16938" placeholder=" }" />
-            <marker date="1341856190000" expanded="true" signature="17060:17140" placeholder="{...}" />
-            <marker date="1341856190000" expanded="true" signature="17227:17289" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/AmountDiscount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6238806">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <marker date="1457465450448" expanded="true" signature="268:339" placeholder="{...}" />
-            <marker date="1457465450448" expanded="true" signature="395:512" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/Discount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19701493">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/CouponDiscount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36119404">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <marker date="1457472601172" expanded="false" signature="216:227" placeholder=" { " />
-            <marker date="1457472601172" expanded="false" signature="256:262" placeholder=" }" />
-            <marker date="1457472601172" expanded="true" signature="317:328" placeholder=" { " />
-            <marker date="1457472601172" expanded="true" signature="347:353" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/model/OrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.03529412">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <marker date="1457466174412" expanded="true" signature="273:403" placeholder="{...}" />
-            <marker date="1457466174412" expanded="false" signature="445:456" placeholder=" { " />
-            <marker date="1457466174412" expanded="false" signature="477:483" placeholder=" }" />
-            <marker date="1457466174412" expanded="false" signature="543:554" placeholder=" { " />
-            <marker date="1457466174412" expanded="false" signature="589:595" placeholder=" }" />
-            <marker date="1457466174412" expanded="false" signature="628:639" placeholder=" { " />
-            <marker date="1457466174412" expanded="false" signature="654:660" placeholder=" }" />
-            <marker date="1457466174412" expanded="false" signature="695:706" placeholder=" { " />
-            <marker date="1457466174412" expanded="false" signature="720:726" placeholder=" }" />
-            <marker date="1457466174412" expanded="true" signature="778:1320" placeholder="{...}" />
-            <marker date="1457466174412" expanded="true" signature="1362:1615" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9260504">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <marker date="1457457770934" expanded="true" signature="243:348" placeholder="{...}" />
-            <marker date="1457457770934" expanded="false" signature="382:393" placeholder=" { " />
-            <marker date="1457457770934" expanded="false" signature="406:412" placeholder=" }" />
-            <marker date="1457457770934" expanded="true" signature="465:905" placeholder="{...}" />
-            <marker date="1457457770934" expanded="true" signature="947:1192" placeholder="{...}" />
-            <marker date="1457457770934" expanded="true" signature="1237:1343" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AmountDiscountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44444445">
-          <caret line="16" column="120" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="120" />
-          <folding>
-            <marker date="1457465450456" expanded="true" signature="8:250" placeholder="..." />
-            <marker date="1457465450456" expanded="true" signature="344:554" placeholder="{...}" />
-            <marker date="1457465450456" expanded="true" signature="607:797" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/sale/Sale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11111111">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <marker date="1457468156696" expanded="false" signature="27:121" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/sale/ProductSale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11111111">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <marker date="1457468156696" expanded="false" signature="27:176" placeholder="..." />
-            <marker date="1457468156696" expanded="false" signature="298:309" placeholder=" { " />
-            <marker date="1457468156696" expanded="false" signature="345:351" placeholder=" }" />
-            <marker date="1457468156696" expanded="true" signature="407:561" placeholder="{...}" />
-            <marker date="1457468156696" expanded="false" signature="620:631" placeholder=" { " />
-            <marker date="1457468156696" expanded="false" signature="663:669" placeholder=" }" />
-            <marker date="1457468156696" expanded="true" signature="725:916" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37099496">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1457468314956" expanded="false" signature="27:204" placeholder="..." />
-            <marker date="1457468314956" expanded="false" signature="315:326" placeholder=" { " />
-            <marker date="1457468314956" expanded="false" signature="362:368" placeholder=" }" />
-            <marker date="1457468314956" expanded="true" signature="424:689" placeholder="{...}" />
-            <marker date="1457468314956" expanded="false" signature="756:767" placeholder=" { " />
-            <marker date="1457468314956" expanded="false" signature="799:805" placeholder=" }" />
-            <marker date="1457468314956" expanded="true" signature="853:1118" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/lang/annotation/RetentionPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88106793">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding>
-            <marker date="1428647078000" expanded="false" signature="0:215" placeholder="/.../" />
-            <marker date="1428647078000" expanded="true" signature="248:564" placeholder="/**...*/" />
-            <marker date="1428647078000" expanded="true" signature="599:666" placeholder="/**...*/" />
-            <marker date="1428647078000" expanded="true" signature="684:860" placeholder="/**...*/" />
-            <marker date="1428647078000" expanded="true" signature="877:1091" placeholder="/**...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1868,97 +1552,282 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16645649">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar!/org/hamcrest/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-127.96154">
+          <caret line="383" column="34" selection-start-line="383" selection-start-column="34" selection-end-line="383" selection-end-column="34" />
           <folding>
-            <marker date="1417684496000" expanded="false" signature="0:104" placeholder="/.../" />
-            <marker date="1417684496000" expanded="false" signature="133:286" placeholder="..." />
-            <marker date="1417684496000" expanded="true" signature="288:353" placeholder="@{...}" />
+            <element signature="e#13832#13833#0" expanded="true" />
+            <element signature="e#13888#13889#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GiftSaleTest.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/shop/model/Product.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5764706">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457469448276" expanded="true" signature="7:303" placeholder="..." />
-            <marker date="1457469448276" expanded="true" signature="480:957" placeholder="{...}" />
-            <marker date="1457469448276" expanded="true" signature="1039:1142" placeholder="{...}" />
+            <element signature="e#0#1966#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07017544">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <marker date="1457469706528" expanded="false" signature="23:234" placeholder="..." />
-            <marker date="1457469706528" expanded="true" signature="402:531" placeholder="{...}" />
-            <marker date="1457469706528" expanded="true" signature="569:780" placeholder="{...}" />
-            <marker date="1457469706528" expanded="true" signature="828:1008" placeholder="{...}" />
-            <marker date="1457469706528" expanded="false" signature="1052:1063" placeholder=" { " />
-            <marker date="1457469706528" expanded="false" signature="1096:1102" placeholder=" }" />
-            <marker date="1457469706528" expanded="false" signature="1158:1169" placeholder=" { " />
-            <marker date="1457469706528" expanded="false" signature="1210:1216" placeholder=" }" />
-            <marker date="1457469706528" expanded="false" signature="1267:1278" placeholder=" { " />
-            <marker date="1457469706528" expanded="false" signature="1304:1310" placeholder=" }" />
-            <marker date="1457469706528" expanded="false" signature="1354:1365" placeholder=" { " />
-            <marker date="1457469706528" expanded="false" signature="1383:1389" placeholder=" }" />
-            <marker date="1457469706528" expanded="true" signature="1443:1546" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1080" column="11" selection-start-line="1080" selection-start-column="11" selection-end-line="1080" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/NoDiscount.java">
+    <entry file="file://$PROJECT_DIR$/Shop.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.191067">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <marker date="1457465450444" expanded="true" signature="168:179" placeholder=" { " />
-            <marker date="1457465450444" expanded="true" signature="204:210" placeholder=" }" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/shop/sale/NoSale.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16377172">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1457468314952" expanded="true" signature="27:71" placeholder="..." />
-            <marker date="1457468314952" expanded="true" signature="178:185" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CouponDiscountTest.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05459057">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ProductSaleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5186104">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/sale/Sale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/sale/ProductSale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/sale/NoSale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/sale/GiftSale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/CouponDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/AmountDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/NoDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
-            <marker date="1457469706528" expanded="false" signature="7:418" placeholder="..." />
-            <marker date="1457469706528" expanded="true" signature="586:872" placeholder="{...}" />
-            <marker date="1457469706528" expanded="true" signature="928:1086" placeholder="{...}" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/discont/Discount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/model/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShoppingCardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43250328">
-          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CouponDiscountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GiftSaleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AmountDiscountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/shop/ShoppingCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6706949">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Shop</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.hamcrest:hamcrest-core:1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45172414" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
